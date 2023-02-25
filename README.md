@@ -1,6 +1,10 @@
 # DataScienceMP1
 Data Science Mini Project 1
 
+The project is divded into four notebooks, **PS1**, **PS2**, **PS3** and **MP1**.
+
+Data is carried over between notebooks through saving dataframes into files and placed in the data folder.
+
 ### Problem Solving 1
 The goal of **Problem Solving 1** was to collect company data based on a delivered CSV file containing a list of students and which companies they spent their internships in. This was done through the API, **CVRAPI** where each unique company in the file was passed through. This resulted in a new file containing a broader amount of data for each company.
 
@@ -18,8 +22,7 @@ Overall, this assignment allowed us to gain hands-on experience with natural lan
 
 
 ### Problem Solving 3
-Statistics of the companies file. 
-The goal of **Problem solving 3** was to explore the data and to get information about the dataframe such as mean, median, mode, min, max, range, count.
+The goal of **Problem solving 3** was to explore the data and to get statistical information about the dataset such as mean, median, mode, min, max, range, count etc.
 
 Next step was to prepare the data for further analysis we did this by replacing and removing unnecessary data or missing data. Drilling down/rolling up attributes coding the text data with numeral labels. we did this with the following libraries 
 scipy.stats import shapiro
