@@ -1,10 +1,7 @@
 # DataScienceMP1
 Data Science Mini Project 1
 
-Briefly explain the process, reflect on your experience and choice of methods and measures
-in a readme file.
-
-### Ps1
+### Problem Solving 1
 The goal of **Problem Solving 1** was to collect company data based on a delivered CSV file containing a list of students and which companies they spent their internships in. This was done through the API, **CVRAPI** where each unique company in the file was passed through. This resulted in a new file containing a broader amount of data for each company.
 
 This data laid ground for further exploration and possibilities. Here we put the data through a geolocation library **GeoPy** based on the companies' addresses so we could get the latitude and longitude.
@@ -12,7 +9,7 @@ This data laid ground for further exploration and possibilities. Here we put the
 To conclude the assignment, we then used this latitude and longitude and put it through the **Folium** library to map out each company on a visualised map over Denmark.
 
 
-### Ps2
+### Problem Solving 2
 We completed PS2 which involved experimenting with text vectorization and implementing it in Natural Language Processing. We loaded a CSV file with companies' data into a data frame and added a text feature containing the description of companies' activities if it wasn't already present. We applied a popular measure of distance between vectors to find the two closest companies in terms of their activities. We extended this by adding a column containing the web addresses of the companies and scraping information from the web pages. We then used cosine similarity to search for specific information we found relevant and explored the results.
 
 To accomplish this, we used Python and various libraries, including Pandas, Scikit-learn, BeautifulSoup, and SentenceTransformers. We defined a function to calculate the cosine similarity between two vectors and another function to create a word vector from a sentence. We also used a pre-trained SentenceTransformer model to encode the text paragraphs we scraped from the web pages.
@@ -20,7 +17,7 @@ To accomplish this, we used Python and various libraries, including Pandas, Scik
 Overall, this assignment allowed us to gain hands-on experience with natural language processing techniques and to explore how they can be applied in real-world scenarios.
 
 
-### Ps3
+### Problem Solving 3
 Statistics of the companies file. 
 The goal of **Problem solving 3** was to explore the data and to get information about the dataframe such as mean, median, mode, min, max, range, count.
 
